@@ -1,5 +1,12 @@
 export const categories = [
   {
+    name: 'Media Tech',
+    items: [
+      { id: 'premiere-bridge', label: 'Premiere VLM Bridge' },
+      { id: 'video-codecs', label: 'Fast 4K Compression' },
+    ],
+  },
+  {
     name: 'AI & ML',
     items: [
       { id: 'ai-terms', label: 'AI Terminology' },
@@ -137,6 +144,18 @@ export const projectContent = {
       { heading: 'Components', items: ['PostgreSQL with pgvector extension for embedding storage and similarity search', 'Vercel serverless functions for API endpoints', 'LLM integration for answer generation based on retrieved context', 'Document chunking and embedding pipeline'] },
       { heading: 'Benefits', items: ['Single deployment platform (Vercel + Neon/Postgres)', 'Scalable serverless architecture', 'No separate vector database needed — pgvector inside Postgres', 'Low-latency hybrid search (keyword + vector)'] },
     ]
+  },
+  'premiere-bridge': {
+    title: 'Premiere VLM Bridge',
+    subtitle: 'vidchain + LLaVA + DeepSeek → color-coded Premiere markers',
+    sections: [{ heading: 'Overview', items: ['AI-assisted video editing pipeline using VLM models for scene analysis and automated Premiere Pro markers.'] }],
+    component: 'PremiereBridge',
+  },
+  'video-codecs': {
+    title: 'Fast 4K Compression',
+    subtitle: 'AV1 Blackwell + HEVC NVENC encode guide',
+    sections: [{ heading: 'Overview', items: ['GPU-accelerated 4K encoding benchmarks and ffmpeg commands for RTX 3060/5060.'] }],
+    component: 'VideoCodecs',
   },
   'vpn-hack': {
     title: 'VPN Hack',

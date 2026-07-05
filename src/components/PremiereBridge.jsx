@@ -1,0 +1,199 @@
+export default function PremiereBridge() {
+  return (
+    <div class="pb">
+      <div class="max-w-6xl mx-auto px-6 py-12 text-gray-900" style={{ background: '#f8f9fc' }}>
+        <div class="text-center mb-4">
+          <div class="flex items-center justify-center gap-3 mb-3">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.2" class="text-gray-300">
+              <rect x="2" y="2" width="28" height="28" rx="6" stroke="currentColor" fill="none"/>
+              <path d="M10 22V10l12 6-12 6z" fill="currentColor" opacity="0.08"/>
+            </svg>
+            <svg height="20" viewBox="0 0 24 24" fill="#76b900"><path d="M8.948 8.798v-1.43a6.7 6.7 0 0 1 .424-.018c3.922-.124 6.493 3.374 6.493 3.374s-2.774 3.851-5.75 3.851c-.398 0-.787-.062-1.158-.185v-4.346c1.528.185 1.837.857 2.747 2.385l2.04-1.714s-1.492-1.952-4-1.952a6.016 6.016 0 0 0-.796.035m0-4.735v2.138l.424-.027c5.45-.185 9.01 4.47 9.01 4.47s-4.08 4.964-8.33 4.964c-.37 0-.733-.035-1.095-.097v1.325c.3.035.61.062.91.062 3.957 0 6.82-2.023 9.593-4.408.459.371 2.34 1.263 2.73 1.652-2.633 2.208-8.772 3.984-12.253 3.984-.335 0-.653-.018-.971-.053v1.864H24V4.063zm0 10.326v1.131c-3.657-.654-4.673-4.46-4.673-4.46s1.758-1.944 4.673-2.262v1.237H8.94c-1.528-.186-2.73 1.245-2.73 1.245s.68 2.412 2.739 3.11M2.456 10.9s2.164-3.197 6.5-3.533V6.201C4.153 6.59 0 10.653 0 10.653s2.35 6.802 8.948 7.42v-1.237c-4.84-.6-6.492-5.936-6.492-5.936z"/></svg>
+          </div>
+          <span class="text-xl md:text-2xl font-light tracking-[0.3em] text-gray-300">YONJAN VENTURES</span>
+          <div class="text-[10px] tracking-[0.2em] text-gray-400">MEDIA AI TECH DIVISION</div>
+          <div class="text-xl md:text-2xl font-black text-gray-200">JULY 2026</div>
+        </div>
+        <header class="text-center mb-12">
+          <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full badge text-xs text-gray-500 mb-6">
+            <span class="w-2 h-2 rounded-full bg-blue-500 pulse-dot"></span>
+            Premiere Pro · DeepSeek · Realtime
+          </div>
+          <div class="text-xs md:text-sm font-semibold text-blue-500 tracking-[0.4em] mb-3">AI ASSISTED CUTS</div>
+          <h1 class="text-5xl md:text-7xl font-black tracking-tight mb-4 gradient-text">Premiere VLM Bridge</h1>
+          <p class="text-gray-500 max-w-xl mx-auto">vidchain + LLaVA → DeepSeek AI → color-coded markers for fast editing review</p>
+
+          <svg class="w-full max-w-lg mx-auto mt-8" viewBox="0 0 450 70" xmlns="http://www.w3.org/2000/svg">
+            <rect x="5" y="10" width="70" height="45" rx="6" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="0.8"/>
+            <text x="40" y="27" text-anchor="middle" fill="rgba(0,0,0,0.15)" font-size="8" font-weight="600">VIDEO</text>
+            <text x="40" y="38" text-anchor="middle" fill="rgba(0,0,0,0.15)" font-size="6">Source</text>
+            <rect x="12" y="42" width="55" height="3" rx="1" fill="rgba(99,102,241,0.35)"/>
+            <circle cx="40" cy="19" r="2.5" fill="rgba(99,102,241,0.25)"/>
+            <circle cx="88" cy="32" r="3" fill="rgba(0,0,0,0.15)"/>
+            <line x1="91" y1="32" x2="105" y2="32" stroke="rgba(0,0,0,0.15)" stroke-width="0.6"/>
+            <rect x="108" y="10" width="110" height="45" rx="6" fill="url(#hl2)" stroke="rgba(99,102,241,0.25)" stroke-width="0.8"/>
+            <text x="163" y="24" text-anchor="middle" fill="rgba(99,102,241,0.4)" font-size="7" font-weight="600">AI PROCESSING</text>
+            <circle cx="125" cy="35" r="3" fill="rgba(99,102,241,0.1)"/>
+            <path d="M135 38 Q 150 32, 165 38 T 195 36" fill="none" stroke="rgba(99,102,241,0.35)" stroke-width="0.6"/>
+            <rect x="125" y="42" width="70" height="2" rx="0.5" fill="rgba(0,0,0,0.15)"/>
+            <rect x="125" y="46" width="45" height="2" rx="0.5" fill="rgba(0,0,0,0.15)"/>
+            <circle cx="228" cy="32" r="3" fill="rgba(0,0,0,0.15)"/>
+            <line x1="231" y1="32" x2="245" y2="32" stroke="rgba(0,0,0,0.15)" stroke-width="0.6"/>
+            <rect x="248" y="10" width="70" height="45" rx="6" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="0.8"/>
+            <text x="283" y="24" text-anchor="middle" fill="rgba(16,185,129,0.3)" font-size="7" font-weight="600">EDIT</text>
+            <line x1="258" y1="32" x2="278" y2="32" stroke="rgba(16,185,129,0.1)" stroke-width="2" stroke-linecap="round"/>
+            <line x1="258" y1="39" x2="288" y2="39" stroke="rgba(16,185,129,0.25)" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="258" y1="44" x2="270" y2="44" stroke="rgba(16,185,129,0.25)" stroke-width="1" stroke-linecap="round"/>
+            <circle cx="305" cy="37" r="4" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="0.6"/>
+            <polygon points="303,35 303,39 306,37" fill="rgba(0,0,0,0.15)"/>
+            <circle cx="332" cy="32" r="3" fill="rgba(0,0,0,0.15)"/>
+            <line x1="335" y1="32" x2="355" y2="32" stroke="rgba(0,0,0,0.15)" stroke-width="0.6"/>
+            <rect x="358" y="10" width="85" height="45" rx="6" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="0.8"/>
+            <rect x="366" y="16" width="10" height="8" rx="2" fill="rgba(99,102,241,0.1)" stroke="rgba(99,102,241,0.35)" stroke-width="0.5"/>
+            <rect x="366" y="27" width="10" height="8" rx="2" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.35)" stroke-width="0.5"/>
+            <rect x="366" y="38" width="10" height="8" rx="2" fill="rgba(239,68,68,0.25)" stroke="rgba(239,68,68,0.35)" stroke-width="0.5"/>
+            <text x="400" y="25" text-anchor="start" fill="rgba(0,0,0,0.2)" font-size="7" font-weight="600">TIMELINE</text>
+            <text x="400" y="36" text-anchor="start" fill="rgba(0,0,0,0.15)" font-size="6">Markers · Cuts</text>
+            <path d="M392 47 L 420 47" stroke="rgba(99,102,241,0.25)" stroke-width="2" stroke-dasharray="2 2"/>
+          </svg>
+        </header>
+
+        <div class="mb-16 max-w-4xl mx-auto">
+          <svg viewBox="0 0 800 90" class="w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="hl2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#6366f1" stop-opacity="0.06"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.02"/></linearGradient>
+            </defs>
+            <rect x="30" y="20" width="130" height="50" rx="8" fill="rgba(0,0,0,0.15)" stroke="rgba(0,0,0,0.15)"/>
+            <text x="95" y="42" text-anchor="middle" fill="#374151" font-size="13" font-weight="600">vidchain</text>
+            <text x="95" y="56" text-anchor="middle" fill="rgba(0,0,0,0.3)" font-size="9">Keyframes</text>
+            <line x1="160" y1="45" x2="220" y2="45" stroke="rgba(0,0,0,0.15)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <polygon points="218,41 228,45 218,49" fill="rgba(0,0,0,0.2)"/>
+            <rect x="235" y="20" width="130" height="50" rx="8" fill="rgba(59,130,246,0.06)" stroke="rgba(59,130,246,0.15)"/>
+            <text x="300" y="42" text-anchor="middle" fill="#2563eb" font-size="13" font-weight="600">LLaVA 13B</text>
+            <text x="300" y="56" text-anchor="middle" fill="rgba(0,0,0,0.3)" font-size="9">Scene desc</text>
+            <line x1="365" y1="45" x2="425" y2="45" stroke="rgba(0,0,0,0.15)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <polygon points="423,41 433,45 423,49" fill="rgba(0,0,0,0.2)"/>
+            <rect x="440" y="20" width="130" height="50" rx="8" fill="rgba(16,185,129,0.25)" stroke="rgba(16,185,129,0.35)"/>
+            <text x="505" y="42" text-anchor="middle" fill="#059669" font-size="13" font-weight="600">DeepSeek</text>
+            <text x="505" y="56" text-anchor="middle" fill="rgba(0,0,0,0.3)" font-size="9">AI decisions</text>
+            <line x1="570" y1="45" x2="630" y2="45" stroke="rgba(0,0,0,0.15)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <polygon points="628,41 638,45 628,49" fill="rgba(0,0,0,0.2)"/>
+            <rect x="645" y="20" width="130" height="50" rx="8" fill="rgba(139,92,246,0.06)" stroke="rgba(139,92,246,0.15)"/>
+            <text x="710" y="42" text-anchor="middle" fill="#7c3aed" font-size="13" font-weight="600">Premiere</text>
+            <text x="710" y="56" text-anchor="middle" fill="rgba(0,0,0,0.3)" font-size="9">Markers</text>
+            <circle cx="95" cy="12" r="3" fill="#2563eb" class="pulse-dot"/>
+            <circle cx="300" cy="12" r="3" fill="#2563eb" class="pulse-dot" style="animation-delay:0.3s"/>
+            <circle cx="505" cy="12" r="3" fill="#059669" class="pulse-dot" style="animation-delay:0.6s"/>
+            <circle cx="710" cy="12" r="3" fill="#7c3aed" class="pulse-dot" style="animation-delay:0.9s"/>
+          </svg>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-4 mb-16 max-w-3xl mx-auto">
+          <div class="card rounded-2xl p-6 text-center">
+            <svg class="w-8 h-8 mx-auto mb-3 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <div class="text-2xl font-black text-gray-800 mb-1">LLaVA</div>
+            <div class="text-xs text-gray-400">Scene understanding</div>
+          </div>
+          <div class="card rounded-2xl p-6 text-center border border-green-200">
+            <svg class="w-8 h-8 mx-auto mb-3 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div class="text-2xl font-black text-emerald-700 mb-1">DeepSeek</div>
+            <div class="text-xs text-gray-400">AI editing decisions</div>
+          </div>
+          <div class="card rounded-2xl p-6 text-center">
+            <svg class="w-8 h-8 mx-auto mb-3 text-purple-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 22 22 2 22"/><line x1="12" y1="2" x2="12" y2="22"/></svg>
+            <div class="text-2xl font-black text-gray-800 mb-1">Instant</div>
+            <div class="text-xs text-gray-400">Color markers on timeline</div>
+          </div>
+        </div>
+
+        <h2 class="text-xl font-bold mb-5 text-center">AI Marker Colors</h2>
+        <div class="grid md:grid-cols-3 gap-4 mb-16 max-w-2xl mx-auto">
+          <div class="card rounded-xl p-5 text-center border border-emerald-200">
+            <svg class="w-6 h-6 mx-auto mb-2 text-emerald-600" viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="6"/></svg>
+            <div class="font-semibold text-sm">Keep</div>
+            <div class="text-xs text-gray-400 mt-1">Scene is good — leave as-is</div>
+          </div>
+          <div class="card rounded-xl p-5 text-center border border-amber-200">
+            <svg class="w-6 h-6 mx-auto mb-2 text-amber-600" viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="6"/></svg>
+            <div class="font-semibold text-sm">Trim</div>
+            <div class="text-xs text-gray-400 mt-1">Edges need trimming</div>
+          </div>
+          <div class="card rounded-xl p-5 text-center border border-red-200">
+            <svg class="w-6 h-6 mx-auto mb-2 text-red-600" viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="6"/></svg>
+            <div class="font-semibold text-sm">AI Assisted Cut</div>
+            <div class="text-xs text-gray-400 mt-1">AI suggests cutting — review & decide</div>
+          </div>
+        </div>
+
+        <h2 class="text-xl font-bold mb-5 text-center">Installation</h2>
+        <div class="grid md:grid-cols-2 gap-4 mb-12 max-w-3xl mx-auto">
+          <div class="card rounded-xl p-5">
+            <div class="font-semibold text-sm mb-3">Vidchain + Ollama</div>
+            <div class="space-y-2 text-xs">
+              <div class="bg-white/60 rounded-lg p-2.5 font-mono text-gray-700 border border-gray-100">pip install vidchain</div>
+              <div class="bg-white/60 rounded-lg p-2.5 font-mono text-gray-700 border border-gray-100">curl -fsSL https://ollama.com/install.sh | sh</div>
+              <div class="bg-white/60 rounded-lg p-2.5 font-mono text-gray-700 border border-gray-100">ollama pull llava:13b</div>
+              <div class="bg-white/60 rounded-lg p-2.5 font-mono text-gray-500 border border-gray-100">ollama pull moondream  # faster, less detail</div>
+            </div>
+          </div>
+          <div class="card rounded-xl p-5">
+            <div class="font-semibold text-sm mb-3">Premiere Bridge</div>
+            <div class="space-y-2 text-xs">
+              <div class="bg-white/60 rounded-lg p-2.5 font-mono text-gray-700 border border-gray-100">uv tool install pymiere</div>
+              <div class="bg-white/60 rounded-lg p-2.5 font-mono text-gray-700 border border-gray-100">pymiere_setup  # one-time CEP panel</div>
+              <div class="bg-white/60 rounded-lg p-2.5 font-mono text-gray-700 border border-gray-100 bg-blue-50/50 border-blue-100">mkdir ~/bridge-in</div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="text-xl font-bold mb-5 text-center">VLM Models</h2>
+        <div class="grid md:grid-cols-3 gap-3 mb-12 max-w-2xl mx-auto text-sm">
+          <div class="card rounded-xl p-4 text-center border border-blue-200">
+            <div class="font-semibold">LLaVA 13B</div>
+            <div class="text-xs text-gray-400 mt-1">~8GB VRAM · Deep understanding · Default</div>
+          </div>
+          <div class="card rounded-xl p-4 text-center">
+            <div class="font-semibold">LLaVA 7B</div>
+            <div class="text-xs text-gray-400 mt-1">~4GB VRAM · Faster · Good balance</div>
+          </div>
+          <div class="card rounded-xl p-4 text-center">
+            <div class="font-semibold">Moondream</div>
+            <div class="text-xs text-gray-400 mt-1">~2GB VRAM · Fastest · Preview</div>
+          </div>
+        </div>
+
+        <h2 class="text-xl font-bold mb-5 text-center">Commands</h2>
+        <div class="space-y-3 max-w-2xl mx-auto mb-12 text-sm">
+          <div class="card rounded-xl p-4 flex items-center gap-4">
+            <svg class="w-5 h-5 text-gray-400 shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="10" cy="10" r="8"/><path d="M10 4v12"/></svg>
+            <div>
+              <div class="text-xs text-gray-400 mb-0.5">Bridge — watches for markers</div>
+              <code class="text-xs font-mono text-gray-700">uv run premiere-bridge-ai.py ~/bridge-in/</code>
+            </div>
+          </div>
+          <div class="card rounded-xl p-4 flex items-center gap-4">
+            <svg class="w-5 h-5 text-gray-400 shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3"><polygon points="10 2 18 17 2 17"/></svg>
+            <div>
+              <div class="text-xs text-gray-400 mb-0.5">Analyze video → markers</div>
+              <code class="text-xs font-mono text-gray-700">vidchain-analyze reel.mp4 --vlm llava:13b -o ~/bridge-in/reel_markers.json</code>
+            </div>
+          </div>
+          <div class="card rounded-xl p-4 flex items-center gap-4">
+            <svg class="w-5 h-5 text-gray-400 shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 10h14M10 3v14"/></svg>
+            <div>
+              <div class="text-xs text-gray-400 mb-0.5">Batch all mp4s</div>
+              <code class="text-xs font-mono text-gray-700">for f in *.mp4; do vidchain-analyze "$f" --vlm llava:13b -o ~/bridge-in/{'${f%.*}'}_markers.json; done</code>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center pb-8">
+          <div class="inline-flex items-center gap-2 text-gray-300 text-xs">
+            <svg class="w-4 h-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="8" cy="8" r="7"/><path d="M2 8h12"/></svg>
+            <a href="/about" class="text-gray-400 hover:text-gray-600">About</a> · onedrive:/scripts/premiere-vlm-bridge/premiere-bridge-ai.py
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
